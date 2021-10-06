@@ -2,6 +2,13 @@
 
 mini Auth Plus Cart
 
+*use expressjs*
+
+*all cart action are found cart.js*
+
+*accessControl.js authorization of client*
+
+
 ## Structure For System
 
 -| /data
@@ -16,11 +23,7 @@ mini Auth Plus Cart
 
 -| index.js
 
-*use expressjs
 
-*all cart action are found cart.js
-
-*accessControl.js authorization of client
 
 ## routes
 
