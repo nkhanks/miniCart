@@ -2,7 +2,7 @@
 
 mini Auth Plus Cart
 
-**Structure For System**
+## Structure For System
 
 -| /data
 
@@ -16,13 +16,13 @@ mini Auth Plus Cart
 
 -| index.js
 
-use expressjs
+*use expressjs
 
-all cart action are found cart.js
+*all cart action are found cart.js
 
-accessControl.js authorization of client
+*accessControl.js authorization of client
 
-**routes** 
+## routes
 
 post /add-client - create a apiKey with email as ref
 
