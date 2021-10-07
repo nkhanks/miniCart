@@ -8,6 +8,7 @@ mini Auth Plus Cart
 
 *accessControl.js authorization of client*
 
+authorization uses headers request 
 
 ## Structure For System
 
