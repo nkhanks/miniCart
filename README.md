@@ -1,18 +1,18 @@
 # miniCart
 
 How start system.
-``
+```
 npm start
 
-``
+```
 
 dependencies:
 
-`` 
+``` 
 npm install express
 
 npm install jsonwebtoken
-``
+```
 
 
 
@@ -46,7 +46,7 @@ authorization uses headers request
 
 post /add-client - adds client to data.json
 
-``
+```
 POST {
   email : string
 }
@@ -55,7 +55,7 @@ return {
   isAdded: bool
   error: string - only when isAdded is false
 }
-``
+```
 
 post /login - get apiKey using email
 
