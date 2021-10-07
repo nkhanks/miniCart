@@ -53,11 +53,33 @@ POST {
 
 return {
   isAdded: bool
-  error: string - only when isAdded is false
 }
+
+if already
+
+return {
+  isAdded: bool
+  error: string 
+}
+
 ```
 
 post /login - get apiKey using email
+```
+POST {
+  email : string
+}
+
+return {
+  token: string
+}
+
+--or--
+
+return {
+  error: string 
+}
+```
 
 get -/cart/get/:itemID
 
