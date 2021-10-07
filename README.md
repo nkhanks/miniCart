@@ -85,7 +85,7 @@ return {
 get -/cart/get/:itemID
 
 ```
-return User Object or empty Object
+return Cart Item Object or empty Object
 ```
 
 post -/cart/update/:itemID
@@ -110,6 +110,10 @@ return {
 
 
 get -/cart
+
+```
+return Array Cart Item Object or empty Array
+```
 
 post -/cart/add/:itemID 
 
