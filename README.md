@@ -55,7 +55,7 @@ return {
   isAdded: bool
 }
 
-if already
+---exists---
 
 return {
   isAdded: bool
@@ -65,6 +65,7 @@ return {
 ```
 
 post /login - get apiKey using email
+
 ```
 POST {
   email : string
@@ -83,14 +84,68 @@ return {
 
 get -/cart/get/:itemID
 
-post -/cart/update/:itemID [qty]
+```
+return User Object or empty Object
+```
+
+post -/cart/update/:itemID
+
+
+```
+POST {
+  qty : int but string
+} 
+
+return {
+  isUpdate: bool
+}
+
+---not exists---
+
+return {
+  isUpdate: bool
+  error: string 
+}
+```
+
 
 get -/cart
 
-post -/cart/add/:itemID [qty,price]
+post -/cart/add/:itemID 
+
+```
+POST {
+  qty : int but string
+  price : float but string
+} 
+
+return {
+  isAdded: bool
+}
+
+```
 
 post -/cart/remove/:itemID 
 
+```
+return {
+  isRemoved: bool
+}
+
+```
+
 post -/cart/empty
+```
+return {
+  isRemoved: bool
+}
+
+```
 
 post -/cart/delete
+```
+return {
+  isDeleted: bool
+}
+
+```
