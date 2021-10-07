@@ -1,5 +1,21 @@
 # miniCart
 
+How start system.
+``
+npm start
+
+``
+
+dependencies:
+
+`` 
+npm install express
+
+npm install jsonwebtoken
+``
+
+
+
 mini Auth Plus Cart
 
 *use expressjs*
@@ -28,7 +44,18 @@ authorization uses headers request
 
 ## routes
 
-post /add-client - create a apiKey with email as ref
+post /add-client - adds client to data.json
+
+``
+POST {
+  email : string
+}
+
+return {
+  isAdded: bool
+  error: string - only when isAdded is false
+}
+``
 
 post /login - get apiKey using email
 
