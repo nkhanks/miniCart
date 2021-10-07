@@ -64,7 +64,7 @@ return {
 
 ```
 
-post /login - get apiKey using email
+post /login - get token of client
 
 ```
 POST {
